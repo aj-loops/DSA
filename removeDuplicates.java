@@ -12,8 +12,9 @@ public class removeDuplicates {
                 nums[k] = nums[i];
                 k++;
             }
+
         }
-        // return k;
+        System.out.println(k);
 
         int []res = new int[k];
 
