@@ -24,11 +24,9 @@ class trappedWater {
                 } else {
                     totalWater += maxRight - height[right];
                 }
-                right--; // Move right pointer to the left
+                right--;
             }
         }
-
-        // Return total trapped water
         return totalWater;
     }
 }
