@@ -7,8 +7,8 @@ public class bigindexmul {
         if (n == 2) {
             return (nums[0] - 1) * (nums[1] - 1);
         }
-        for (int i = 1; i < n; i++) {
-            if (nums[i] > val1) {
+        for (int i = 0; i < n; i++) {
+            if (nums[i] >= val1) {
                 val2 = val1;
                 val1 = nums[i];
             } else if (val2 < nums[i]) {
