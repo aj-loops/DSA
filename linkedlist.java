@@ -1,5 +1,5 @@
 public class linkedlist {
-    static class Node {
+    public static class Node {
         int data;
         Node next;
 

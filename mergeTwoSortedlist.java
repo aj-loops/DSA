@@ -1,6 +1,6 @@
 class mergeTwoSortedLists {
 
-    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+    public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {
 
         ListNode dummy = new ListNode(0);
         ListNode tail = dummy;
