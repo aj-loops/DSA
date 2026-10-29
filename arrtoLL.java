@@ -11,6 +11,7 @@ public class arrtoLL {
         Node(int data) {
             this.data = data;
             this.next = null;
+            // this(data,null);or option
         }
     }
 

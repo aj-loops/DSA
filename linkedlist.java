@@ -17,6 +17,12 @@ public class linkedlist {
     public static void main(String[] args) {
         int[] arr = { 2, 3, 4, 5, 6 };
         Node node = new Node(arr[0]);
-        System.out.println(node.data);
+        Node mover = node;
+        for (int i = 1; i < arr.length; i++) {
+            mover = new Node(arr[i]);
+            System.out.println(mover.data);
+            mover = mover.next;
+        }
+        // System.out.println(node.data);
     }
 }
