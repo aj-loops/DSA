@@ -24,3 +24,4 @@ class binary {
         return -1;
     }
 }
+
